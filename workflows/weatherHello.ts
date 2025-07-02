@@ -19,7 +19,7 @@ const weatherNode: NodeAction = async (_state) => {
 	return { messages: [response] };
 };
 
-// Asychronously appends a greeting after 3 seconds
+// Asynchronously appends a greeting after 3 seconds
 const helloNode: NodeAction = async (_state) => {
 	const greeting = new AIMessage({ content: `👋 Hello there!` });
 
